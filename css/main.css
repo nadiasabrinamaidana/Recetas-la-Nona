@@ -1,0 +1,31 @@
+/*comienza api jsplaceholder*/
+.cajaapi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #Ffc215;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.parrafo{
+    background-color: #e0e0e1;
+    color: #2d2e2e;
+    font-size: 2vw;
+    text-align: center;
+    padding: 10%;
+    width: 70%;
+}
+ 
+.nombres{
+    background-color: #e0e0e1;
+    color: #2d2e2e;
+    width: auto;
+    margin: auto;
+    padding: 3%;
+    font-size: 2vw;
+    text-align:left;
+
+}
+/*termina api jsplaceholder*/
