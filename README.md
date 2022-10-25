@@ -1,0 +1,6 @@
+# mi_repositorio
+NADIA MAIDANA se encargo de realizar el formulario con validacion,lo realizo con  javascript.Hizo flip cards, q tienen una transicion, cuando se pasa el mouse por arriba.Las cards al final de la receta tienen el logo, q haciendo click ahi lleva directo a Youtube.se importaron estilos de font awesome:Grand hotel, cursive y para el resto Se utilizo Noto sans mono.
+CLAUDIA POTSCHKA, realizo el navegador horizontal con submenu y footer de la pagina.el nav en dispositivos pequenos se transforma en un menu hamburguesa.cuando se pasa el mouse sobre las secciones, cambian de color.los fav icons se utilizaron en el footer.
+fue la encargada de hacer todas las secciones responsive(menos la parte de Api, q se encargo Fer)para dispositivos pequenos, medianos y grandes usando las medias querys.tmb se encargo de darle estilos a la pagina, menos a la parte de api y quienes somos.Hizo un carrusel para la seccion inicio usando Javascritp.
+FERNANDA ZABALA puso el iframe en la seccion recetas, realizo la seccion Quienes Somos y le dio los estilos.
+Se encargo de consumir una Api de jsonplaceholder, para que nos de una lista de ganadores y se encargo de darle los estilos para distintos tamanos de dispositivos.
