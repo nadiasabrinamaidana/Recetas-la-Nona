@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Estilo.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/f248741b70.js" crossorigin="anonymous"></script>
+    <title>Proyecto Codo a Codo</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="contenedor-nav">
+            <h1 class="logo">Recetas de la Nonna</h1>
+            <label for="menu"class="nav-label">
+                <img src="../Multimedia/menu.svg"class="nav-img">
+            </label>
+            <input type="checkbox" id="menu"class="nav-input">
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../Paginas/Recetas.html">Recetas</a>
+                            <ul class="submenu"> 
+                                <li><a href="../Paginas/salado.html">Salado</a></li>
+                                <li><a href="../Paginas/Postres.html">Postres</a></li>
+                            </ul>
+                        <li><a href="../Paginas/Quienes_somos.html ">Quienes Somos</a></li>
+                        <li><a href="../Paginas/Contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div> 
+    </nav>
+
+    <div class="contenedor">
+      <div class="cabecera">
+           
+      </div>
+<form id="formulario" action=""method="">
+      <h2>Suscribite</h2>
+      <p>Suscribite y participa de los sorteos que realizamos todos los meses.</p>
+<div class="form-control">
+  <label for="usuario">Nombre Completo</label>
+<input id="usuario" type="text">
+  <p>Nombre y Apellido</p>
+</div>
+
+<div class="form-control">
+  <label for="email">E-mail</label>
+  <input id="email" type="email">
+    <p>email</p>
+</div>
+
+<div class="form-control">
+    <label for="pass">Contrasena</label>
+  <input id="pass" type="password">
+  <p></p>
+</div>
+<div class="form-control">
+    <label for="passConfirma">Confirmar contrasena</label>
+  <input id="passConfirma" type="password">
+  <p></p>
+</div>
+
+<button>Enviar</button>
+
+    </form>
+  </div>
+
+
+
+       
+    
+    <div class="cajaapi">
+        <div class="parrafo">
+        <p> Felicitaciones a los ganadores del sorteo de Octubre!!
+            Muchas gracias por participar!!
+        </p>
+        </div>
+        <div class="nombres" id="data"></div>
+    </div>
+<footer>
+    <ul>
+        <li><i class="fa-brands fa-instagram"style="color:rgb(228,47,198);"></i><a href="">Instagram</a></li>
+        <li><i class="fa-brands fa-facebook"style="color:blue;"></i><a href="">Facebook</a></li>
+        <li><i class="fa-brands fa-youtube"style="color:red;"></i><a href="">Youtube</a></li>
+    </ul>
+</footer>
+
+<script src="../js/contacto.js"></script>
+</body>
+</html>
